@@ -179,6 +179,7 @@ header{
 /*Service End*/
 /*Information Start*/
 .information{
+	overflow: hidden;
 	padding: 50px 0 50px 0;
 	background-color: #0C1019;
 }
@@ -263,55 +264,54 @@ header{
 }
 /*Information End*/
 /*Footer Start*/
- footer{
-	overflow:hidden;
- 	background-color: #121B2C;
- 	padding: 30px 0;
- }
- .left{
- 	width: 60%;
- 	float: left;
-
- }
-.top{
- 	margin-bottom: -30px;
-    overflow: hidden;
- }
-.top ul{
- 	float: left;
- 	padding-left: 0;
- }
-.top ul li{
- 	list-style: none;
- 	float: left;
- }
-.top ul li a{
- 	font-family: sans-serif;
- 	font-size: 14px;
- 	color: white;
- 	text-decoration: none;
- 	border-right: 1px solid white;
- 	padding: 0 20px;
- 	display: block;
- }
-
-.top ul li:first-child a{
- 	padding-left: 0;
-
- }
- .top ul li:last-child a{
- 	border-right: none;
- }
-.bottom p{
- 	font-family: sans-serif;
- 	font-size: 14px;
- 	color: white;
- }
-.logo2{
-	float: right;
-    width: 40%;
- }
- .logo2 img{
- 	width: 100%;
- }
+footer{
+	overflow: hidden;
+	background-color: #121B2C;
+}
+.footer_menu{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	/*border: 1px solid white;*/
+	width: 60%;
+	float: left;
+}
+.top_menu{
+	float: left;
+}
+.top_menu ul{
+	float: left;
+	padding-left: 0;
+}
+.top_menu ul li{
+    float: left;
+    list-style: none;
+}
+.top_menu ul li a{
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	padding:0 20px;
+	border-right: 1px solid white;
+}
+.top_menu ul li:first-child a{
+	padding-left: 0;
+}
+.top_menu ul li:last-child a{
+	border-right: none;
+}
+.copyright{
+	float: left;
+}
+.copyright p{
+	font-family: sans-serif;
+	font-size: 12px;
+	color: white;
+}
+.footer_logo{
+	/*border: 1px solid white;*/
+    float: right;
+    margin-top: 20px;
+}
 /*Footer End*/
